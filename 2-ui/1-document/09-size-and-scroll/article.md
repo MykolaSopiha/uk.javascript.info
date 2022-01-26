@@ -1,16 +1,16 @@
-# Element size and scrolling
+# Розмір елемента та прокручування
 
-There are many JavaScript properties that allow us to read information about element width, height and other geometry features.
+Є багато властивостей JavaScript, які дозволяють нам прочитати інформацію про ширину елементів, висоту та інші особливості геометрії.
 
-We often need them when moving or positioning elements in JavaScript.
+Вони часто потрібні нас при переміщенні або позиціонуванні елементів у JavaScript.
 
-## Sample element
+## Зразок елемента
 
-As a sample element to demonstrate properties we'll use the one given below:
+Для демонстрації властивостей ми будемо використовувати вказаний нижче елемент:
 
 ```html no-beautify
 <div id="example">
-  ...Text...
+  ...Текст...
 </div>
 <style>
   #example {
@@ -24,6 +24,7 @@ As a sample element to demonstrate properties we'll use the one given below:
 ```
 
 It has the border, padding and scrolling. The full set of features. There are no margins, as they are not the part of the element itself, and there are no special properties for them.
+Він має кордон, підкладку та прокручування.Повний набір функцій.Немає маржі, оскільки вони не є частиною самого елемента, і для них немає спеціальних властивостей.
 
 The element looks like this:
 
